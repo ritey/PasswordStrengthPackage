@@ -1,24 +1,27 @@
 {
-    "name": "schuppo/password-strength",
-    "description": "This package provides a validator for ensuring strong passwords in Laravel 4 applications.",
+    "name": "ritey/password-strength",
+    "description": "This package provides a validator for ensuring strong passwords in Laravel 6 applications.",
     "keywords": [
         "laravel",
-        "laravel5",
-        "laravel 5",
+        "laravel 6",
         "validation",
         "password",
         "password strength"
     ],
     "authors": [
         {
+            "name": "David Wright",
+            "email": "dave@ritey.com"
+        },
+        {
             "name": "Oliver Schupp",
             "email": "oliver.schupp@yahoo.de"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~5.0",
-        "illuminate/translation": "^5.1"
+        "php": ">=7.2",
+        "illuminate/support": "~5.0|6.*",
+        "illuminate/translation": "^5.1|6.*"
     },
     "require-dev": {
         "illuminate/validation": "~5.0",
